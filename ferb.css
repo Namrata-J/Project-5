@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+}
+.ferbie p{
+    color: rgb(218, 189, 27);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 4px 4px 5px rgb(24, 23, 23);
+}
+.adjust{
+    text-align: center;
+}
+.adjust img{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    max-width: 400px;
+}
+.adjust-2{
+    height: 900px;
+}
+.adjust-21{
+    width: 70%;
+    margin: auto;
+}
+.adjust-21 textarea{
+    width: 100%;
+    height: 200px;
+    border:2px solid rgb(0, 255, 255);
+    border-radius: 10rem;
+    text-align: center;
+    padding: .3rem;
+    padding-top: 3rem;
+    margin-top: 70px;
+}
+.ferbie button{
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 1.1rem 1.5rem;
+    border-radius: 10rem;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 3px 4px 5px rgb(19, 18, 18);
+    background-color: rgb(209, 206, 201);
+    color: rgb(63, 61, 61);
+}
+.ferbie button:hover{
+    background-color: rgb(119, 235, 235);
+}
+footer{
+    background-color: brown;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 4rem;
+}

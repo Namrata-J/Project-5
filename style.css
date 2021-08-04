@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    background-image: url(Images/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.heading{
+    text-align: center;
+    color: rgb(124, 198, 233);
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+    font-weight: bold;
+    text-shadow: 3px 5px 4px rgb(19, 197, 138);
+}
+.common-div{
+    height: 200px;
+}
+.right-section{
+    width: 50%;
+    float: right;
+}
+.left-section{
+    width: 50%;
+    float: left;
+}
+.floating{
+    float: right;
+}
+.floating img{
+    margin-right: 28px;
+}
+.phrase{
+    color: rgb(32, 31, 31);
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-shadow: 3px 5px 4px rgb(19, 197, 138);
+}
+.link{
+    color: rgb(65, 63, 62);
+    text-decoration: none;
+    background-color: rgb(49, 181, 190);
+    padding: .5rem;
+    border-radius: 3rem;
+}
+.link:hover{
+    background-color: rgb(56, 185, 125);
+    color: rgb(36, 44, 38);
+}

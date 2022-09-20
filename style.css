@@ -1,48 +1,68 @@
-body{
-    margin: 0px;
-    background-image: url(Images/bg.png);
-    background-attachment: fixed;
+body {
+    height: 100vh;
+    background-image: url("https://worldofprintables.com/wp-content/uploads/2021/04/Pastel-Blue-Aesthetic-Wallpaper.jpg");
     background-size: cover;
+    padding: 1rem;
 }
-.heading{
+
+p {
+    font-weight: bold;
+    padding-bottom: 1rem;
     text-align: center;
-    color: rgb(124, 198, 233);
-    font-size: 1.5rem;
-    padding-bottom: 3rem;
-    font-weight: bold;
-    text-shadow: 3px 5px 4px rgb(19, 197, 138);
 }
-.common-div{
-    height: 200px;
+
+.common-div-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 1rem;
+    height: 90vh;
 }
-.right-section{
-    width: 50%;
-    float: right;
+
+.each-common-div {
+    width: 20rem;
 }
-.left-section{
-    width: 50%;
-    float: left;
+
+.common-div {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 0.5rem;
+    padding: 1rem;
 }
-.floating{
-    float: right;
+
+.right-section, .right-section p {
+    text-align: right;
+    font-size: 0.9rem;
 }
-.floating img{
-    margin-right: 28px;
-}
-.phrase{
-    color: rgb(32, 31, 31);
-    font-weight: bold;
-    font-size: 1.3rem;
-    text-shadow: 3px 5px 4px rgb(19, 197, 138);
-}
-.link{
-    color: rgb(65, 63, 62);
+
+.right-section a {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0.3rem;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 0.8rem;
+    padding: 0.5rem 0.8rem;
     text-decoration: none;
-    background-color: rgb(49, 181, 190);
-    padding: .5rem;
-    border-radius: 3rem;
 }
-.link:hover{
-    background-color: rgb(56, 185, 125);
-    color: rgb(36, 44, 38);
+
+.right-section a:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 740px) {
+    .each-common-div {
+        width: 15rem;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .each-common-div {
+        width: 20rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .each-common-div {
+        flex-grow: 1;
+    }
 }

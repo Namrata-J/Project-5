@@ -6,7 +6,57 @@
     box-sizing: border-box;
 }
 
-h1, p, div {
+h1,
+p,
+div {
     font-family: 'Montserrat', sans-serif;
 }
 
+.content-section,
+.content {
+    height: 100vh;
+}
+
+.content-section img {
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem 1rem;
+
+}
+
+textarea {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    min-height: 12rem;
+    padding: 1rem;
+    width: 80%;
+}
+
+.content button {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 0.3rem;
+    padding: 0.5rem 0.8rem;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 2rem 6rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    footer {
+        font-size: 0.9rem;
+        padding: 2rem 1rem;
+    }
+}
